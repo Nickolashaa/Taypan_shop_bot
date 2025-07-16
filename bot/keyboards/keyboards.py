@@ -1,7 +1,7 @@
 from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 
-keyboard = InlineKeyboardMarkup(
+start_keyboard = InlineKeyboardMarkup(
     inline_keyboard=[
         [
             InlineKeyboardButton(text="Заказать звонок", callback_data="order_call"),
@@ -13,4 +13,4 @@ keyboard = InlineKeyboardMarkup(
             InlineKeyboardButton(text="Контакты", callback_data="contacts"),
         ],
     ]
-)   
+)
