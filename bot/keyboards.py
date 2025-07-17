@@ -13,3 +13,17 @@ main_keyboard = InlineKeyboardMarkup(
         ],
     ]
 )
+
+info_keyboard = InlineKeyboardMarkup(
+    inline_keyboard=[
+        [
+            InlineKeyboardButton(text="Услуги", callback_data="info_services"),
+        ],
+        [
+            InlineKeyboardButton(text="Цены", callback_data="info_prices"),
+        ],
+        [
+            InlineKeyboardButton(text="Гарантии", callback_data="info_warranties"),
+        ],
+    ]
+)
